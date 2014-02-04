@@ -10,19 +10,19 @@ Installation
   Download:
 
 ```bash
-git clone https://github.com/tony/tmux-config.git ~/.tmux-tony
+git clone https://github.com/vaishaal/tmux-config.git ~/dotfiles/.tmux-vaishaal
 ```
 
   Copy tmux config to home:
 
 ```bash
-ln -s ~/.tmux-tony/.tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/.tmux-vaishaal/.tmux.conf ~/.tmux.conf
 ```
 
   Go to config dir:
 
 ```bash
-cd ~/.tmux-tony
+cd ~/dotfiles/.tmux-vaishaal
 ```
 
 Stats
@@ -47,7 +47,7 @@ git submodule update
   Change dir to tmux-mem-cpu-load:
 
 ```bash
-cd ~/.tmux-tony/vendor/tmux-mem-cpu-load
+cd ~/dotfiles/.tmux-vaishaal/vendor/tmux-mem-cpu-load
 ```
 
   General make file:
@@ -90,10 +90,10 @@ tmux source-file ~/.tmux.conf
 sudo pip install psutil
 ```
 
-  copy ~/.tmux-tony/vendor/basic-cpu-and-memory.tmux to bin
+  copy ~/dotfiles/.tmux-vaishaal/vendor/basic-cpu-and-memory.tmux to bin
 
 ```bash
-sudo cp ~/.tmux-tony/vendor/basic-cpu-and-memory.tmux /usr/local/bin/tmux-mem-cpu-load
+sudo cp ~/dotfiles/.tmux-vaishaal/vendor/basic-cpu-and-memory.tmux /usr/local/bin/tmux-mem-cpu-load
 ```
 
   make executable
